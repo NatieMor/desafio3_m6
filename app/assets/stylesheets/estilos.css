@@ -1,0 +1,40 @@
+body {
+    font-family: var(--font-default);
+    color: var(--color-default);
+    background-color: paleturquoise;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+
+:root {
+    scroll-behavior: smooth;
+  }
+
+  :root {
+    --color-default: #558995;
+    --color-primary: #27a776;
+    --color-secondary: #161718;
+  }
+
+  :root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Inter", sans-serif;
+    --font-secondary: "Cardo", sans-serif;
+  }
+
+  .page-header {
+    padding: 120px 0 60px 0;
+    min-height: 30vh;
+    position: relative;
+  }
+
+  footer .credits a {
+    color: var(--color-primary);
+  }
